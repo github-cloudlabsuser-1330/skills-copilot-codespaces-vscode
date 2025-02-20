@@ -4,8 +4,13 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "GitHub.copilot"
+                "GitHub.copilot",
+                "hashicorp.terraform"
             ]
         }
-    }
+    },
+   "features": {
+       "ghcr.io/devcontainers/features/terraform:1": {},
+       "ghcr.io/devcontainers/features/azure-cli:1": {}
+   }
 }
